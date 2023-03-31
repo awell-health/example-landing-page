@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import Image from 'next/image'
 import { ReactNode } from 'react'
 
 export default function HostedPathwayStory() {
@@ -19,7 +20,9 @@ export default function HostedPathwayStory() {
   return (
     <form className="text-center">
       <div className={`flex-col justify-center gap-3`}>
-        <div className="mx-auto text-center mb-12">
+        <Image src="/mindler.png" alt="mindler" width="274" height="305" />
+
+        <div className="mx-auto text-center mb-12 w-8/12">
           <h2 className={`text-xl font-bold text-gray-900`}>
             Please click on the area you live in to complete an eligibility
             assessment to receive NHS funded therapy (either one-to-one therapy
@@ -27,7 +30,7 @@ export default function HostedPathwayStory() {
           </h2>
         </div>
         {/* space buttons vertically with 8px gap */}
-        <div className={`w-8/12 mx-auto`}>
+        <div className={`w-4/12 mx-auto`}>
           <div className={`flex flex-col gap-8 justify-center`}>
             <button
               type="button"
