@@ -11,8 +11,10 @@ export default function Home() {
         url="/"
         canonicalUrl="/"
       />
-      <div className={`flex items-center justify-center min-h-screen py-2`}>
-        <div className="w-8/12">
+      <div
+        className={`flex items-center justify-center min-h-screen sm:py-2 py-1`}
+      >
+        <div className="sm:w-8/12 w-10/12">
           <HostedPathwayStory />
         </div>
       </div>

@@ -22,7 +22,8 @@ export default function HostedPathwayStory() {
       <div className={`flex-col justify-center gap-3`}>
         <Image src="/mindler.png" alt="mindler" width="274" height="305" />
 
-        <div className="mx-auto text-center mb-12 w-8/12">
+        {/* full width on mobile */}
+        <div className="mx-auto text-center mb-12 sm:w-8/12 w-full">
           <h2 className={`text-xl font-bold text-gray-900`}>
             Please click on the area you live in to complete an eligibility
             assessment to receive NHS funded therapy (either one-to-one therapy
@@ -30,7 +31,7 @@ export default function HostedPathwayStory() {
           </h2>
         </div>
         {/* space buttons vertically with 8px gap */}
-        <div className={`w-4/12 mx-auto`}>
+        <div className={`sm:w-4/12 w-full mx-auto`}>
           <div className={`flex flex-col gap-8 justify-center`}>
             <button
               type="button"
@@ -57,8 +58,8 @@ export default function HostedPathwayStory() {
 
 HostedPathwayStory.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className={`flex items-center justify-center min-h-screen py-2`}>
-      <div className="w-8/12">{page}</div>
+    <div className={`flex items-center justify-center min-h-screen py-0`}>
+      <div className="w-full">{page}</div>
     </div>
   )
 }
