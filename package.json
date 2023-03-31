@@ -15,10 +15,8 @@
     "predev": "npm run generate-types"
   },
   "dependencies": {
-    "@apollo/client": "^3.5.10",
+    "@apollo/client": "^3.7.2",
     "@awell_health/ui-library": "^0.0.63",
-    "@graphql-codegen/cli": "^2.6.2",
-    "@graphql-codegen/typescript": "^2.4.8",
     "@headlessui/react": "^1.6.5",
     "@heroicons/react": "^1.0.6",
     "clsx": "^1.2.1",

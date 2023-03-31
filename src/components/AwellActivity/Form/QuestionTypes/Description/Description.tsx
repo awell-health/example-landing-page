@@ -7,5 +7,5 @@ interface DescriptionProps {
 }
 
 export const DescriptionComponent = ({ question }: DescriptionProps) => {
-  return <Description nodes={question.title} />
+  return <Description content={question.title} />
 }
