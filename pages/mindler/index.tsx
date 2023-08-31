@@ -20,14 +20,13 @@ export default function HostedPathwayStory() {
   return (
     <form className="text-center">
       <div className={`flex-col justify-center gap-3`}>
-        <Image src="/mindler.png" alt="mindler" width="274" height="305" />
+        <Image src="/friendly.png" alt="friendly" width="274" height="305" />
 
         {/* full width on mobile */}
         <div className="mx-auto text-center mb-12 sm:w-8/12 w-full">
           <h2 className={`text-xl font-bold text-gray-900`}>
             Please click on the area you live in to complete an eligibility
-            assessment to receive NHS funded therapy (either one-to-one therapy
-            or a digital course).
+            assessment.
           </h2>
         </div>
         {/* space buttons vertically with 8px gap */}
@@ -35,7 +34,7 @@ export default function HostedPathwayStory() {
           <div className={`flex flex-col gap-8 justify-center`}>
             <button
               type="button"
-              onClick={() => onStartSession('PqG0lfaC7FhK')}
+              onClick={() => onStartSession('')}
               className={`px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 disabled:cursor-not-allowed`}
               style={{ backgroundColor: '#969BF0' }}
             >
@@ -43,7 +42,7 @@ export default function HostedPathwayStory() {
             </button>
             <button
               type="button"
-              onClick={() => onStartSession('DQMuzHekOxc5')}
+              onClick={() => onStartSession('')}
               className={`px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 disabled:cursor-not-allowed`}
               style={{ backgroundColor: '#969BF0' }}
             >
@@ -51,7 +50,7 @@ export default function HostedPathwayStory() {
             </button>
             <button
               type="button"
-              onClick={() => onStartSession('2Cwaj1s71v7J')}
+              onClick={() => onStartSession('')}
               className={`px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-600 disabled:cursor-not-allowed`}
               style={{ backgroundColor: '#969BF0' }}
             >
