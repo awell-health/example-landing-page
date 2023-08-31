@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <SEO
-        title="Complete Your Free NHS Assessment"
+        title="Complete Your Free Assessment"
         description=""
         preventCrawling={true}
         url="/"
