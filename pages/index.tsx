@@ -1,5 +1,5 @@
 import { SEO } from '../src/components/SEO'
-import HostedPathwayStory from './mindler'
+import HostedPathwayStory from './home'
 
 export default function Home() {
   return (

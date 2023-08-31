@@ -31,8 +31,8 @@ export default async function handler(
         variables: {
           input: {
             pathway_definition_id: pathwayDefinitionId,
-            success_url: `https://sandbox.mindler.co.uk/`,
-            cancel_url: `https://sandbox.mindler.co.uk/`,
+            success_url: `https://customerwebsite.co.uk/success`,
+            cancel_url: `https://customerwebsite.co.uk/cancel`,
           },
         },
       })
